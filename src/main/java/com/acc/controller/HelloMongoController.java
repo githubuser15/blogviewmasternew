@@ -32,6 +32,7 @@ public class HelloMongoController {
  }*/
 		ModelAndView modelAndView = new ModelAndView("index");		
 		modelAndView.addObject("users", users );
+		System.out.println("testing the git gui");
 		return modelAndView;
 	}
 }
