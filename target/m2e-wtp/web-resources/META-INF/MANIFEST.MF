@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.7.0_60
+Built-By: aparna_lakshmi_meda
+Created-By: Maven Integration for Eclipse
+
