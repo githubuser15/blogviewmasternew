@@ -34,6 +34,7 @@ public class HelloMongoController {
 		modelAndView.addObject("users", users );
 		System.out.println("testing the 8eereregit gui");
 		System.out.println("testing the gui in eclipse");
+		System.out.println("tetsing the change in remote repo");
 		return modelAndView;
 	}
 }
