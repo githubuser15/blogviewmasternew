@@ -35,6 +35,8 @@ public class HelloMongoController {
 		System.out.println("testing the 8eereregit gui");
 		System.out.println("testing the gui in eclipse");
 		System.out.println("tetsing the change in remote repo");
+		System.out.println("to check the changes in the build");
+		
 		return modelAndView;
 	}
 }
