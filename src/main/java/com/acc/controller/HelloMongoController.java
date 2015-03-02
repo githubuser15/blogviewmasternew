@@ -3,17 +3,12 @@ package com.acc.controller;
 
 import java.util.List;
  
-
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
-
-
-
 import com.acc.data.Users;
 import com.acc.repositories.UsersRepository;
  
@@ -35,8 +30,9 @@ public class HelloMongoController {
 		System.out.println("testing the 8eereregit gui");
 		System.out.println("testing the gui in eclipse");
 		System.out.println("tetsing the change in remote repo");
-		System.out.println("to check the changes in the build");
-		
+		System.out.println("to check the changes in the building");
+		String A="1234";
+		A.charAt(20);
 		return modelAndView;
 	}
 }
