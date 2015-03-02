@@ -33,6 +33,7 @@ public class HelloMongoController {
 		System.out.println("to check the changes in the building");
 		String A="1234";
 		A.charAt(20);
+		System.out.println("Printing the error");
 		return modelAndView;
 	}
 }
