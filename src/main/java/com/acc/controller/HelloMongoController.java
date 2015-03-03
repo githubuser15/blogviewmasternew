@@ -21,10 +21,7 @@ public class HelloMongoController {
 	@RequestMapping(value = "/hello", method = RequestMethod.GET)
 	public ModelAndView helloWorld( ModelMap model ) {
 		List<Users> users = repository.findAll();
- /*for(int i=0;i<users.size();i++)
- {
-	 System.out.println("users list "+users.get(1).getFirstName());
- }*/
+
 		ModelAndView modelAndView = new ModelAndView("index");		
 		modelAndView.addObject("users", users );
 		
