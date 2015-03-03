@@ -29,7 +29,7 @@ public class HelloMongoController {
 		if(str.equals("Test")) {
 			System.out.Println(""KKKK);
 		}*/
-	
+	System.out.println("test");
 		return modelAndView;
 	}
 }
