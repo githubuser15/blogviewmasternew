@@ -27,7 +27,7 @@ public class HelloMongoController {
 		
 		String str = null;
 		if(str.equals("Test")) {
-			System.out.println("Print he he ");
+			System.out.Println(""KKKK);
 		}
 	
 		return modelAndView;
