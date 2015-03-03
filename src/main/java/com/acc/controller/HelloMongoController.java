@@ -25,10 +25,10 @@ public class HelloMongoController {
 		ModelAndView modelAndView = new ModelAndView("index");		
 		modelAndView.addObject("users", users );
 		
-		String str = null;
+		/*String str = null;
 		if(str.equals("Test")) {
 			System.out.Println(""KKKK);
-		}
+		}*/
 	
 		return modelAndView;
 	}
