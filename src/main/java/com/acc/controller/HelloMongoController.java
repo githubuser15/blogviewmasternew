@@ -25,8 +25,10 @@ public class HelloMongoController {
 		ModelAndView modelAndView = new ModelAndView("index");		
 		modelAndView.addObject("users", users );
 		
-	
-		
+		String str = null;
+		if(str.equals("Test")) {
+			System.out.println("Print he he ");
+		}
 	
 		return modelAndView;
 	}
