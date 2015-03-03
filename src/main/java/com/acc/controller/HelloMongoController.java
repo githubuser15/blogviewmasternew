@@ -26,8 +26,6 @@ public class HelloMongoController {
 		modelAndView.addObject("users", users );
 		
 		System.out.println("tetsing the change in remote repo");
-		System.out.println("to check the changes in the building");
-		
 	
 		return modelAndView;
 	}
