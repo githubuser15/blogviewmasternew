@@ -1,0 +1,28 @@
+{
+"tasks":[{"assignedto":null,
+"crowdtype":null,
+"description":"Services for DWSE",
+"enddate":"\/Date(1424688593500+0530)\/",
+"estimatedenddate":"\/Date(1424688593500+0530)\/",
+"estimatedstartdate":"\/Date(1424688593500+0530)\/",
+"interactioncount":0,
+"parenttaskid":0,
+"projectname":"ATL",
+"skills":null,
+"startdate":"\/Date(1424688593500+0530)\/",
+"status":"Contract Pending",
+"taskid":1,
+"title":"DWSE Demo Services",
+"tpid":null},
+{"assignedto":null,
+"crowdtype":null,"description":"DTB Related Services",
+"enddate":"\/Date(1424688593500+0530)\/",
+"estimatedenddate":"\/Date(1424688593500+0530)\/",
+"estimatedstartdate":"\/Date(1424688593500+0530)\/","interactioncount":0,
+"parenttaskid":0,"projectname":"ATL","skills":null,"startdate":"\/Date(1424688593500+0530)\/","status":"Manager Approval Pending",
+"taskid":2,"title":"DTB Services","tpid":null},{"assignedto":null,"crowdtype":null,"description":"UI for Dashboard",
+"enddate":"\/Date(1424688593500+0530)\/","estimatedenddate":"\/Date(1424688593500+0530)\/","estimatedstartdate":"\/Date(1424688593500+0530)\/",
+"interactioncount":0,"parenttaskid":0,"projectname":"ATL","skills":null,"startdate":"\/Date(1424688593500+0530)\/","status":"Posted to External Crowd",
+"taskid":3,"title":"Dashboard UI","tpid":null}
+]
+}
