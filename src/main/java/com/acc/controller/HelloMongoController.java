@@ -48,7 +48,7 @@ public class HelloMongoController {
 			System.out.Println(""KKKK);
 		}*/
 	//System.out.println("tsssssest);
-		//adding the commentssds
+		//adding the comments
 		return modelAndView;
 	}
 
