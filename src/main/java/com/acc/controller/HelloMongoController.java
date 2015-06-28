@@ -42,13 +42,13 @@ public class HelloMongoController {
 
 		ModelAndView modelAndView = new ModelAndView("index");		
 		modelAndView.addObject("users", users );
-		
+		System.out.println("in hmc");
 		/*String str = null;
 		if(str.equals("Test")) {
 			System.out.Println(""KKKK);
 		}*/
 	System.out.println("tsssssest");
-		//adding the comments gfg
+		//adding the comments gfg 
 		return modelAndView;
 	}
 
