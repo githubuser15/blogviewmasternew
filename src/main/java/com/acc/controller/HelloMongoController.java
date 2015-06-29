@@ -47,9 +47,9 @@ public class HelloMongoController {
 		if(str.equals("Test")) {
 			System.out.Println(""KKKK);
 		}*/
-	System.out.println("tsssssest");
+	System.out.println("tsssssest);
 		//adding the comments gfg 
-		return modelAndView;
+		return "modelAndView";
 	}
 
 
