@@ -42,7 +42,7 @@ public class HelloMongoController {
 
 		ModelAndView modelAndView = new ModelAndView("index");		
 		modelAndView.addObject("users", users );
-		System.out.println("in hmc");
+		//System.out.println("in hmc");
 		/*String str = null;
 		if(str.equals("Test")) {
 			System.out.Println(""KKKK);
