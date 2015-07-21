@@ -28,11 +28,11 @@ public class HelloMongoController {
 
 		//List<String> list = getList();
 
-		""ModelAndView model = new ModelAndView("sample");
+		ModelAndView model = new ModelAndView("sample");
 		//model.addObject("lists", "true");
 		//model.addObject("lists", list);
 
-		return model;
+		return "model;
 
 	}
 
