@@ -32,7 +32,7 @@ public class HelloMongoController {
 		//model.addObject("lists", "true");
 		//model.addObject("lists", list);
 
-		return model;""
+		return model;
 		
 
 	}
@@ -47,7 +47,7 @@ public class HelloMongoController {
 		/*String str = null;
 		if(str.equals("Test")) {
 			System.out.Println(""KKKK);
-		}
+		}*/
   System.out.println("tsssssest");
 		//adding the comments gfg 
 //adding the cooments
