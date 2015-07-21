@@ -32,7 +32,7 @@ public class HelloMongoController {
 		//model.addObject("lists", "true");
 		//model.addObject("lists", list);
 
-		return model;sasas
+		return model;
 
 	}
 
