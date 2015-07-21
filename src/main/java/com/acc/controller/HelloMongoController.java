@@ -32,7 +32,8 @@ public class HelloMongoController {
 		//model.addObject("lists", "true");
 		//model.addObject("lists", list);
 
-		return model;
+		return model;""
+		''as
 
 	}
 
