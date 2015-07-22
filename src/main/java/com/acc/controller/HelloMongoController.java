@@ -53,7 +53,7 @@ public class HelloMongoController {
 //adding the cooments
 		return  modelAndView;
 	
-	}
+	//}
 
 
 	@RequestMapping(value = "/tasks", method = RequestMethod.GET)
