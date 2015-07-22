@@ -34,7 +34,7 @@ public class HelloMongoController {
 
 		return model
 		
-
+xxxzxzxz
 	}
 
 	@RequestMapping(value = "/hello", method = RequestMethod.GET)
