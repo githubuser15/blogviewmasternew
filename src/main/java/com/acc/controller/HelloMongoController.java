@@ -32,9 +32,9 @@ public class HelloMongoController {
 		//model.addObject("lists", "true");
 		//model.addObject("lists", list);
 
-		return model
+		return model;
 		
-xxxzxzxz
+
 	}
 
 	@RequestMapping(value = "/hello", method = RequestMethod.GET)
@@ -53,7 +53,7 @@ xxxzxzxz
 //adding the cooments
 		return  modelAndView;
 	
-	//}
+	}
 
 
 	@RequestMapping(value = "/tasks", method = RequestMethod.GET)
