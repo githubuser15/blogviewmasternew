@@ -32,13 +32,13 @@ public class HelloMongoController {
 		//model.addObject("lists", "true");
 		//model.addObject("lists", list);
 
-		return model;
+		return model
 		
 
-	}
+	//}
 
 	@RequestMapping(value = "/hello", method = RequestMethod.GET)
-	public ModelAndView helloWorld( ModelMap model ) {
+//	public ModelAndView helloWorld( ModelMap model ) {
 		List<Users> users = repository.findAll();
 
 		ModelAndView modelAndView = new ModelAndView("index");		
