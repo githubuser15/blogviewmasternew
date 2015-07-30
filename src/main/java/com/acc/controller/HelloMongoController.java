@@ -54,7 +54,7 @@ public class HelloMongoController {
 	@RequestMapping(value = "/tasks", method = RequestMethod.GET)
 	/public ModelAndView getCrowdtasks() throws JSONException {
 		
-		ModelAndView mv = new ModelAndView () ;
+		//ModelAndView mv = new ModelAndView () ;
 		CrowdDataSource cds= new CrowdDataSource();		
 		mv.getModelMap().addAttribute("tasks", cds.getCrowdTasks()) ;		
 		mv.setViewName("crowdtasks");
