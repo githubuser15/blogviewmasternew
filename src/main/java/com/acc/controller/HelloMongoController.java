@@ -32,28 +32,23 @@ public class HelloMongoController {
 		//model.addObject("lists", "true");
 		//model.addObject("lists", list);
 
-		return model""""
+		return model;
 		
 
-	//}
+	}
 
 	@RequestMapping(value = "/hello", method = RequestMethod.GET)
-//	public ModelAndView helloWorld( ModelMap model ) {
+	public ModelAndView helloWorld( ModelMap model ) {
 		List<Users> users = repository.findAll();
 
 		ModelAndView modelAndView = new ModelAndView("index");		
 		modelAndView.addObject("users", users );
-		//System.out.println("in hmc");
-		/*String str = null;
-		if(str.equals("Test")) {
-			System.out.Println(""KKKK);
-		}*/
+
   System.out.println("tsssssest");
-		//adding the comments gfg 
-//adding the cooments
+
 		return  modelAndView;
 	
-	
+	}
 
 
 	@RequestMapping(value = "/tasks", method = RequestMethod.GET)
