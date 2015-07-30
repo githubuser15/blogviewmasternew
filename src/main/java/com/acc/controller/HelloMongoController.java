@@ -32,13 +32,13 @@ public class HelloMongoController {
 		//model.addObject("lists", "true");
 		//model.addObject("lists", list);
 
-		return model;
+	//	return model;
 		
 
 	}
 
-	@RequestMapping(value = "/hello", method = RequestMethod.GET)
-	public ModelAndView helloWorld( ModelMap model ) {
+	//@RequestMapping(value = "/hello", method = RequestMethod.GET)
+	//public ModelAndView helloWorld( ModelMap model ) {
 		List<Users> users = repository.findAll();
 
 		ModelAndView modelAndView = new ModelAndView("index");		
@@ -46,19 +46,19 @@ public class HelloMongoController {
 
   System.out.println("tsssssest");
 
-		return  modelAndView;
+	//	return  modelAndView;
 	
 	}
 
 
 	@RequestMapping(value = "/tasks", method = RequestMethod.GET)
-	public ModelAndView getCrowdtasks() throws JSONException {
+	/public ModelAndView getCrowdtasks() throws JSONException {
 		
 		ModelAndView mv = new ModelAndView () ;
 		CrowdDataSource cds= new CrowdDataSource();		
 		mv.getModelMap().addAttribute("tasks", cds.getCrowdTasks()) ;		
 		mv.setViewName("crowdtasks");
-		return mv ;
+		/return mv ;
 	}
 	
 
