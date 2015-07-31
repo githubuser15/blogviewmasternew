@@ -37,7 +37,7 @@ public class HelloMongoController {
 
 	}
 
-	@RequestMapping(value = "/hello", method = RequestMethod.GET)
+	//@RequestMapping(value = "/hello", method = RequestMethod.GET)
 	public ModelAndView helloWorld( ModelMap model ) {
 		List<Users> users = repository.findAll();
 
@@ -51,14 +51,14 @@ public class HelloMongoController {
 	}
 
 
-	@RequestMapping(value = "/tasks", method = RequestMethod.GET)
-	public ModelAndView getCrowdtasks() throws JSONException {
+	//@RequestMapping(value = "/tasks", method = RequestMethod.GET)
+	//public ModelAndView getCrowdtasks() throws JSONException {
 		
 		ModelAndView mv = new ModelAndView () ;
 		CrowdDataSource cds= new CrowdDataSource();		
 		mv.getModelMap().addAttribute("tasks", cds.getCrowdTasks()) ;		
 		mv.setViewName("crowdtasks");
-		return mv ;
+		return vvvv mv ;
 	}
 	
 
