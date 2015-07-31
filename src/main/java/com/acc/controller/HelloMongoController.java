@@ -48,7 +48,7 @@ public class HelloMongoController {
 
 		return  modelAndView;
 	
-	}
+	//}
 
 
 	//@RequestMapping(value = "/tasks", method = RequestMethod.GET)
@@ -58,7 +58,7 @@ public class HelloMongoController {
 		CrowdDataSource cds= new CrowdDataSource();		
 		mv.getModelMap().addAttribute("tasks", cds.getCrowdTasks()) ;		
 		mv.setViewName("crowdtasks");
-		return vvvv mv ;
+		//return vvvv mv ;
 	}
 	
 
